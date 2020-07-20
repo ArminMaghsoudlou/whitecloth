@@ -20,7 +20,13 @@ export default class Navbar extends Component {
           </li>
         </ul>
 
-        <Link className="ml-auto" to="/cart">
+        <Link className="ml-auto" to="/chef-signup">
+            <ButtonContainer>
+              Chef Sign Up
+            </ButtonContainer> 
+        </Link>
+
+        <Link className="ml" to="/cart">
             <ButtonContainer>
               <span className="mr-2">
                 <i className="fas fa-cart-plus"></i>
@@ -28,7 +34,6 @@ export default class Navbar extends Component {
               Bookings
             </ButtonContainer> 
         </Link>
-
       </nav>
     )
   }

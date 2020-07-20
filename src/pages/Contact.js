@@ -62,10 +62,7 @@ export default class ContactPage extends Component {
                     emailSent: false
                 });
             })
-
     }
-
-
     render() {
         return(
             <div>
@@ -99,6 +96,9 @@ export default class ContactPage extends Component {
                         {this.state.emailSent === true && <p className="d-inline success-msg">Submit Successful</p>}
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
+                    </div>
+                    <div>
+                 
                     </div>
             </div>
         );

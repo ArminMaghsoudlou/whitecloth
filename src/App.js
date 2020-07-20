@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Modal from './components/Modal';
 import ContactPage from './pages/Contact';
 import FaqPage from './pages/Faq';
-
+import ChefSignUp from './pages/ChefSignUp';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={ChefList} />
       <Route exact path="/details" component={Details} />
+      <Route exact path="/chef-signup" component={ChefSignUp} />
       <Route exact path="/cart" component={Cart} />
       <Route exact path="/faq" component={FaqPage} />
       <Route exact path="/contact" component={ContactPage} />

@@ -96,7 +96,7 @@ export default class ContactDetails extends Component {
                         </Button>
 
 
-                        {this.state.emailSent === true && <p className="d-inline success-msg">Submit Successful</p>}
+                        {this.state.emailSent === true && <p className="d-inline success-msg">Submit Successful. We'll get back to you within 24 hours</p>}
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
                     </div>
