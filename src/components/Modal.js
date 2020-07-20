@@ -20,7 +20,7 @@ export default class Modal extends Component {
                             <div className="row">
                                 <div id="modal" 
                                 className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5">
-                                    <h5>Chef added to Reservations</h5>
+                                    <h5>Chef added to Bookings</h5>
                                     <img src={img} className="img-fluid" alt="chef"/>
                                     <h5>{title}</h5>
                                     <h5 className="text-muted">price: $ {price}</h5>
@@ -31,7 +31,7 @@ export default class Modal extends Component {
                                     </Link>
                                     <Link to='/cart'>
                                         <ButtonContainer onClick={()=>closeModal()}>
-                                            go to Reservations
+                                            go to Bookings
                                         </ButtonContainer>
                                     </Link>
                                 </div>

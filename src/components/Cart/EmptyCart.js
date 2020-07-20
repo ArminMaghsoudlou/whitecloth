@@ -5,7 +5,7 @@ export default function EmptyCart() {
     <div className="container mt-5">
         <div className="row">
             <div className="col-10 mx-auto text-center text-title">
-                <h1>you currently have no reservations </h1>
+                <h1>you currently have no bookings </h1>
             </div>
         </div>
     </div>

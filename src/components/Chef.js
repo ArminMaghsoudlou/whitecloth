@@ -46,6 +46,7 @@ export default class Chef extends Component {
               <h5 className="text-blue mb-0">
                 <span className="mr-1">$</span>
                 {price}
+                <span className="mr-1">+</span>
               </h5>
           </div>
         </div>

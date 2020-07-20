@@ -1,6 +1,7 @@
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import React, { Component } from 'react'
 
+
 export default class Footer extends Component {
  render() {
   return (
@@ -9,27 +10,27 @@ export default class Footer extends Component {
             <MDBRow className="pt-5 mb-3 text-center d-flex justify-content-center">
             <MDBCol md="2" className="b-3">
                 <h6 className="title font-weight-bold">
-                <a href="#!">ABOUT US</a>
+                <a href="about">ABOUT US</a>
                 </h6>
             </MDBCol>
             <MDBCol md="2" className="b-3">
                 <h6 className="title font-weight-bold">
-                <a href="#!">HOW IT WORKS</a>
+                <a href="howitworks">HOW IT WORKS</a>
                 </h6>
             </MDBCol>
             <MDBCol md="2" className="b-3">
                 <h6 className="title font-weight-bold">
-                <a href="#!">BLOG</a>
+                <a href="/blog">BLOG</a>
                 </h6>
             </MDBCol>
             <MDBCol md="2" className="b-3">
                 <h6 className="title font-weight-bold">
-                <a href="#!">FAQ</a>
+                <a href="/faq">FAQ</a>
                 </h6>
             </MDBCol>
             <MDBCol md="2" className="b-3">
                 <h6 className="title font-weight-bold">
-                <a href="#!">CONTACT</a>
+                <a href="/contact">CONTACT</a>
                 </h6>
             </MDBCol>
             </MDBRow>
