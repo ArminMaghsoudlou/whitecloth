@@ -68,3 +68,7 @@ body {
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
+
+.b2c {
+  margin: 0 10px;
+}

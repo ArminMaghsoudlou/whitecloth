@@ -7,6 +7,7 @@ import InstagramEmbed from 'react-instagram-embed';
 import Faq from "react-faq-component";
 import moment from 'moment'
 import Calendar from 'react-calendar';
+import ContactDetails from '../pages/Contact-details'
 
 
 
@@ -100,7 +101,7 @@ export default class Details extends Component {
                       </h4>
                       <h4 className="text-blue">
                         <strong>
-                          minimum price: <span>$</span> {price}
+                          base price: <span>$</span>{price}
                         </strong>
                       </h4>
                       <h4 className="text-loc mt-3 mb-0">
@@ -120,23 +121,28 @@ export default class Details extends Component {
                       </div>
                       <div>
                         <Faq data={faq_data} styles={faq_styles} config={faq_config} />
+                        <p> <br></br> </p>
                       </div>
-                  
+                      <div>
+                        <ContactDetails> </ContactDetails> 
+                        <p> <br></br> </p>
+                      </div>
                       <div>
                         <Link to="/">
-                          <ButtonContainer>
-                            back to chefs
-                          </ButtonContainer>
+                        <button
+                        className="b2c btn btn-info text-uppercase mb-3 px-5"
+                        type="button">
+                            Back to Chefs
+                        </button>
                         </Link>
-                          <ButtonContainer 
-                            disabled={inCart?true:false}
-                            onClick={()=>{
-                              value.addToCart(id);
-                              value.openModal(id);
-                            }}
-                          >
+                        <button 
+                        className="btn btn-success text-uppercase mb-3 px-5"
+                        type="button" disabled={inCart?true:false} onClick={()=>{
+                            value.addToCart(id);
+                            value.openModal(id);
+                          }}>
                             {inCart ? "inCart":"book"}
-                          </ButtonContainer>
+                        </button>
                       </div>
                     </div>
                   </div>

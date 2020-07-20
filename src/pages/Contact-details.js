@@ -6,7 +6,7 @@ import Title from '../components/Title'
 import Axios from 'axios';
 import { Col } from 'react-bootstrap';
 
-export default class ContactPage extends Component {
+export default class ContactDetails extends Component {
 
     constructor(props) {
         super(props);
@@ -69,9 +69,8 @@ export default class ContactPage extends Component {
     render() {
         return(
             <div>
-
-            <Title name="contact us" />
-                <div className= "col-6 centered"> 
+            <Title name="contact us for custom quote" />
+                <div className= "col centered"> 
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
                             <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -87,7 +86,8 @@ export default class ContactPage extends Component {
 
                         <Form.Group>
                             <Form.Label htmlFor="message">Message</Form.Label>
-                            <Form.Control type="email" placeholder="Enter your message" id="message" name="message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
+                            <Form.Control type="email" 
+                            placeholder="Enter your request. Please be as specific as possible." id="message" name="message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
 
 
