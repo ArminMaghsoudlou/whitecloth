@@ -13,6 +13,9 @@ import Modal from './components/Modal';
 import ContactPage from './pages/Contact';
 import FaqPage from './pages/Faq';
 import ChefSignUp from './pages/ChefSignUp';
+import About from './pages/About';
+import Blog from './pages/Blog';
+
 
 function App() {
   return (
@@ -25,6 +28,8 @@ function App() {
       <Route exact path="/cart" component={Cart} />
       <Route exact path="/faq" component={FaqPage} />
       <Route exact path="/contact" component={ContactPage} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/blog" component={Blog} />
       <Route component={Default} />
     </Switch>
     <Footer />
