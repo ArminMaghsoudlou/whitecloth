@@ -38,12 +38,8 @@ export default class Footer extends Component {
             <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
             <MDBCol md="8" sm="12" className="mt-5">
                 <p style={{ lineHeight: "1.7rem" }}>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur.
+                This is a sample footer. This website is meant to be used for testing purposes only. This site
+                is not an actual functioning business. Please do not input any credit card information.
                 </p>
             </MDBCol>
             </MDBRow>

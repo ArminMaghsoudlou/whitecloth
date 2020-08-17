@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Modal from './components/Modal';
 import ContactPage from './pages/Contact';
 import FaqPage from './pages/Faq';
+import HowPage from './pages/How-it-works';
 import ChefSignUp from './pages/ChefSignUp';
 import About from './pages/About';
 import Blog from './pages/Blog';
@@ -27,6 +28,7 @@ function App() {
       <Route exact path="/chef-signup" component={ChefSignUp} />
       <Route exact path="/cart" component={Cart} />
       <Route exact path="/faq" component={FaqPage} />
+      <Route exact path="/howitworks" component={HowPage} />
       <Route exact path="/contact" component={ContactPage} />
       <Route exact path="/about" component={About} />
       <Route exact path="/blog" component={Blog} />
