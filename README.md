@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was can be viewed at whitecloth.netlify.app
 
 ## Available Scripts
 
