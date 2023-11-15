@@ -1,4 +1,4 @@
-This project was can be viewed at whitecloth.netlify.app
+This project can be viewed at whitecloth.netlify.app
 
 ## Available Scripts
 
